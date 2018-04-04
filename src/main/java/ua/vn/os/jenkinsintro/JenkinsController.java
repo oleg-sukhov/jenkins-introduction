@@ -12,6 +12,6 @@ public class JenkinsController {
     @GetMapping(path = "version")
     @ResponseBody
     public String jenkinsVersion() {
-        return "2.107.1";
+        return "2.107.2";
     }
 }
